@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="justDressApp">
 <head>
 <title>Shop Around</title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -8,8 +8,12 @@
 <script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
 <script src="js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 <script src="js/jquery-func.js" type="text/javascript"></script>
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="node_modules/angular/ng-route.js"></script>
+<script src="app/main.js"></script>
+<script src="app/controllerHome.js"></script>
 </head>
-<body>
+<body ng-controller="controllerHome">
 <!-- Shell -->
 <div class="shell">
   <!-- Header -->
